@@ -5,7 +5,7 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 
 
-Part 1:Database and Jupyter Notebook Set Up
+Part 1: Database and Jupyter Notebook Set Up
 
 Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Use PyMongo and Pretty Print (pprint).
 
