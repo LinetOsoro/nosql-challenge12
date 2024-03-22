@@ -4,7 +4,6 @@ Eat Safe, Love
 The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
 
-
 Part 1: Database and Jupyter Notebook Set Up
 
 Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Use PyMongo and Pretty Print (pprint).
@@ -38,7 +37,6 @@ RatingValue refers to the overall rating decided by the Food Authority and range
 Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. We will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
 
 The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
-
 
 
 Questions to be answered: 
